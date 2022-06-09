@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿#include<iostream>
 #include<cstring>
 bool search(char *a, char *b, int sizeA, int sizeB )
 {
@@ -13,8 +13,7 @@ bool search(char *a, char *b, int sizeA, int sizeB )
 int main()
 {
 	char a[] = "Hello world";
-
-	char b[] = "wo";
+	char b[] = "wor";
     int sizeA = sizeof(a)-1;
     int sizeB = sizeof(b)-1;
     std::cout << search(a, b, sizeA,sizeB);
